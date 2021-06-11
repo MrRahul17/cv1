@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+  </head>
+  <body>
+    <h1>for My Personal details, please fill the form</h1>
+    <form class="" action="index.html" method="post">
+      <label for="Fname">1. First Name: </label>
+      <input type="text" name="Fname" value="" required><br><br>
+      <label for="Lname">2. Last name: </label>
+      <input type="text" name="Lname" value="" required><br><br>
+
+      <label for="gender">3. Gender: </label><br>
+      <input type="radio" id="gender" name="gender" value="Male">
+      <label for="gender">Male</label><br>
+      <input type="radio" id="gender" name="gender" value="Female">
+      <label for="gender">Female</label><br>
+      <input type="radio" id="gender" name="gender" value="Other">
+      <label for="gender">Other</label><br><br>
+
+      <label for="dob">4. Date of birth: </label>
+      <input type="date" name="dob" value=""><br><br>
+
+      <label for="mail">5. Your mail id: </label>
+      <input type="email" name="mail" value=""><br><br>
+
+      <label for="myfile">6. Attach your resume</label>
+      <input type="file" name="myfile" value=""><br><br>
+
+
+      <label for="lf">7. Looking for: </label>
+      <select class="lf" name="lf">
+        <option value="c o">Choose option</option>
+        <option value="Mob Number">Mobile Number</option>
+        <option value="email">Email</option>
+        <option value="home address">Home Address</option>
+        <option value="just for interest">just for interestr</option>
+
+      </select><br><br>
+
+      <label for="mob">8. Contact number</label>
+      <select class="mobNum" name="mobNum">
+        <option value="India">+91-</option>
+        <option value="USA">+44-</option>
+
+      </select>
+      <input type="tel" name="mob" value="Mobile Number"><br><br>
+
+      <label for="message">9. Please left a message: </label><br>
+      <textarea name="message" rows="8" cols="300">Please left your message here: </textarea><br><br>
+
+      <input type="submit" name="submit" value="10. submit">
+    </form>
+  </body>
+</html>
